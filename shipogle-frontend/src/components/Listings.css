@@ -1,0 +1,56 @@
+.courier-listing-container {
+  margin: auto;
+}
+.view-buttons-container {
+  display: flex;
+}
+.listing-card {
+  display: flex;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.listing-card:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.listing-card-avatar {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 4px;
+}
+
+.listing-card-subheading {
+  display: flex;
+  align-items: center;
+}
+.listing-card-heading {
+  font-weight: 450;
+  font-size: 17px;
+}
+.lisitng-card-header {
+  flex-grow: 1;
+  max-width: 90%;
+}
+
+.listing-card-divider {
+  width: 1px;
+  border-left: 1px solid #969696a1;
+  height: 84px;
+  margin: 0px 10px 0px 8px;
+}
+
+.view-buttons-text {
+  flex-grow: 1;
+}
+
+.view-buttons-container IconButton {
+  height: 36px;
+  width: 36px;
+}

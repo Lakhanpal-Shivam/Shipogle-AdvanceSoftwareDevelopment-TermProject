@@ -1,0 +1,15 @@
+.payment-form {
+  display: grid;
+  grid-template-columns: minmax(220px, 350px) minmax(220px, 350px);
+  grid-gap: 1.5rem;
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  max-width: 80%;
+  margin: 2rem auto;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(0, 0, 0, 0.08) 0px 2px 8px;
+  padding: 1rem;
+  justify-items: center;
+}
