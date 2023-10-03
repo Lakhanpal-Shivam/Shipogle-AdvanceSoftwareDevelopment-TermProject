@@ -7,6 +7,7 @@ package com.shipogle.app.model;
  */
 public class ChatMessageRequest {
 
+    //private fields
     private int senderId;
     private int receiverId;
     private String message;
