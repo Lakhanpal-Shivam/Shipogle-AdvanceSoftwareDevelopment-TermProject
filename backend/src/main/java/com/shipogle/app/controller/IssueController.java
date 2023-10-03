@@ -28,12 +28,7 @@ public class IssueController {
         return issueService.postIssue(Integer.valueOf(req.get("package_order_id")),req.get("description"));
     }
 
-    /**
-     * Get all issues
-     *
-     * @author Almasfiza Anwar Hussain Shaikh
-     * @return list of issues
-     */
+   
     @GetMapping("issue/getall")
     public List<Issue> getAllIssues(){
         return issueService.getAllIssues();
